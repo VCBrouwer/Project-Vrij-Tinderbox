@@ -1,0 +1,866 @@
+Using pre-set license
+Built from '2021.1/staging' branch; Version is '2021.1.6f1 (c0fade0cc7e9) revision 12647134'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Pro; OS build 19042.985; Version 2009; 64bit' Language: 'en' Physical Memory: 32584 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Users\vbrou\Documents\Unity\2021.1.6f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/vbrou/Documents/HKU/Jaar 2/Project Vrij/Project Vrij Unity/Project-Vrij-Tinderbox/Project Vrij WW1
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+62756
+Successfully changed project path to: C:/Users/vbrou/Documents/HKU/Jaar 2/Project Vrij/Project Vrij Unity/Project-Vrij-Tinderbox/Project Vrij WW1
+C:/Users/vbrou/Documents/HKU/Jaar 2/Project Vrij/Project Vrij Unity/Project-Vrij-Tinderbox/Project Vrij WW1
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 101.11 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.1.6f1 (c0fade0cc7e9)
+[Subsystems] Discovering subsystems at path C:/Users/vbrou/Documents/Unity/2021.1.6f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/vbrou/Documents/HKU/Jaar 2/Project Vrij/Project Vrij Unity/Project-Vrij-Tinderbox/Project Vrij WW1/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 2080 Super with Max-Q Design (ID=0x1e93)
+    Vendor:   NVIDIA
+    VRAM:     8010 MB
+    Driver:   26.21.14.4614
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Initialize mono
+Mono path[0] = 'C:/Users/vbrou/Documents/Unity/2021.1.6f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Users/vbrou/Documents/Unity/2021.1.6f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Users/vbrou/Documents/Unity/2021.1.6f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56488
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Users/vbrou/Documents/Unity/2021.1.6f1/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: C:/Users/vbrou/Documents/Unity/2021.1.6f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002231 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 103.13 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.151 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.003089 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 109.17 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.097 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 0.70 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4529 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 249.8 MB.
+System memory in use after: 249.9 MB.
+
+Unloading 29 unused Assets to reduce memory usage. Loaded Objects now: 4984.
+Total: 2.511500 ms (FindLiveObjects: 0.409000 ms CreateObjectMapping: 0.210100 ms MarkObjects: 1.792700 ms  DeleteObjects: 0.098600 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/TestScene/Global Volume Profile 1.asset
+  artifactKey: Guid(70030a01ecfbe3640aec0431f663117c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TestScene/Global Volume Profile 1.asset using Guid(70030a01ecfbe3640aec0431f663117c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b16a1cbdfcc6fdb189f614290faf65c4') in 0.051991 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000227 seconds.
+  path: Assets/TestScene/Trench Post Processing Profile.asset
+  artifactKey: Guid(55b838d64c4e93d43b48ff5f4e4f9e7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TestScene/Trench Post Processing Profile.asset using Guid(55b838d64c4e93d43b48ff5f4e4f9e7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b05f944a6647ce854d9b679ee7a5747') in 0.007140 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000249 seconds.
+  path: Assets/TestScene/Global Volume Profile.asset
+  artifactKey: Guid(09c6878f355a7e74a84c96d832003209) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TestScene/Global Volume Profile.asset using Guid(09c6878f355a7e74a84c96d832003209) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a491d497b149d2f9bde3c71ebeac00c') in 0.007498 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.634468 seconds.
+  path: Assets/MICK
+  artifactKey: Guid(1a70011e0864ceb4c89846f4fd49661e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MICK using Guid(1a70011e0864ceb4c89846f4fd49661e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98408e7bb126de863b21f77ebf604564') in 0.007472 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.397970 seconds.
+  path: Assets/Prefabs/Player.prefab
+  artifactKey: Guid(060355914b99af248b99623eb4678d6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Player.prefab using Guid(060355914b99af248b99623eb4678d6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88caaa5da23d04e9358a7a0648c15b3b') in 0.021925 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.710267 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene.unity using Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10f26cd284cfbdfc64437c83ee6e0442') in 0.007883 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.608582 seconds.
+  path: Assets/Scenes/TestScene
+  artifactKey: Guid(f8be0ff806ad45f4e8e051550bb7593f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/TestScene using Guid(f8be0ff806ad45f4e8e051550bb7593f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f79080cf1eb3c96d27be011ec121744') in 0.007578 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.929342 seconds.
+  path: Packages/com.unity.2d.common/Tests/Editor/Unity.2D.Common.EditorTests.asmdef
+  artifactKey: Guid(03bfc083748b8452197dde3b8ea7fbba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.common/Tests/Editor/Unity.2D.Common.EditorTests.asmdef using Guid(03bfc083748b8452197dde3b8ea7fbba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d7061c08f2ae0af0b90c324d668ed26') in 0.007703 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000243 seconds.
+  path: Packages/com.unity.2d.spriteshape/Editor/Icons/SpriteShapeController@64.png
+  artifactKey: Guid(d1508e1dc42abb745b24c8891a614d2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.spriteshape/Editor/Icons/SpriteShapeController@64.png using Guid(d1508e1dc42abb745b24c8891a614d2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '643e88fa47d853310e7975c98ab3de2b') in 0.066439 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000174 seconds.
+  path: Packages/com.unity.2d.spriteshape/Editor/ObjectMenuCreation/DefaultAssets/Sprite Shapes/SpriteShapeEdge.png
+  artifactKey: Guid(0ae2b74b1edd14bb18dd7b65ae916a54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.spriteshape/Editor/ObjectMenuCreation/DefaultAssets/Sprite Shapes/SpriteShapeEdge.png using Guid(0ae2b74b1edd14bb18dd7b65ae916a54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '745c7bef3f87e3383a8a5e98ea4f2eb3') in 0.045115 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000364 seconds.
+  path: Packages/com.unity.2d.animation/Tests/Editor/Unity.2D.Animation.EditorTests.asmdef
+  artifactKey: Guid(ba283300490772f4f8d1f69efcb7c60f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.animation/Tests/Editor/Unity.2D.Animation.EditorTests.asmdef using Guid(ba283300490772f4f8d1f69efcb7c60f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53f25b57931543022edf0414fc40f551') in 0.006388 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000249 seconds.
+  path: Packages/com.unity.2d.spriteshape/Editor/Icons/SpriteShape@64.png
+  artifactKey: Guid(0a9a0f36a52ce7f4d813fbf5d8f76a1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.spriteshape/Editor/Icons/SpriteShape@64.png using Guid(0a9a0f36a52ce7f4d813fbf5d8f76a1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e358490c3ab6165d3f73739c45b6aad8') in 0.012305 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.077228 seconds.
+  path: Packages/com.unity.ugui/Tests/Editor/UnityEditor.UI.EditorTests.asmdef
+  artifactKey: Guid(7c04f0dfa9243c04681a55d90d3ff3fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.ugui/Tests/Editor/UnityEditor.UI.EditorTests.asmdef using Guid(7c04f0dfa9243c04681a55d90d3ff3fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26e74ddf7b099bb21f1e37831a4f5027') in 0.005836 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.322234 seconds.
+  path: Assets/TestScene.unity
+  artifactKey: Guid(3cbe582347920334da5d04dab7e7bc12) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/TestScene.unity using Guid(3cbe582347920334da5d04dab7e7bc12) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'a4dc58a9ac4bafe8bc38b433ba00e3cf') in 0.052519 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000233 seconds.
+  path: Assets/Scripts/MoveScript.cs
+  artifactKey: Guid(87e41dccc9b37b64bb0e9f646939fc0e) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Scripts/MoveScript.cs using Guid(87e41dccc9b37b64bb0e9f646939fc0e) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '737c71263b850307af75ac152b9c2d5c') in 0.015478 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000197 seconds.
+  path: Assets/Assets/NormalWereld/Struiken/Norm_Struik_03.png
+  artifactKey: Guid(d6d177765c172fd4ba8f55b94c9201e6) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Assets/NormalWereld/Struiken/Norm_Struik_03.png using Guid(d6d177765c172fd4ba8f55b94c9201e6) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '048a67758124e24fbec88a2ebb651a11') in 0.016515 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000228 seconds.
+  path: Assets/Assets/HallucinatieWerels/Hallu_Lucht_1.png
+  artifactKey: Guid(a3b534991e01179468a5bba23646a1b6) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Assets/HallucinatieWerels/Hallu_Lucht_1.png using Guid(a3b534991e01179468a5bba23646a1b6) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '96aa15b972f598e6e037f2471909f880') in 0.013831 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000304 seconds.
+  path: Assets/Assets/NormalWereld/Bodem/Norm_Bodem_3.png
+  artifactKey: Guid(6fa755cf83ea57847be838a83681afa2) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Assets/NormalWereld/Bodem/Norm_Bodem_3.png using Guid(6fa755cf83ea57847be838a83681afa2) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '6616f664e57b645e4cbbaefe4731d857') in 0.019322 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000205 seconds.
+  path: Assets/Assets/HallucinatieWerels/Prikkeldraad/Prikkeldraad _07.png
+  artifactKey: Guid(fbb63339e29b3604e952fe634db4b766) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Assets/HallucinatieWerels/Prikkeldraad/Prikkeldraad _07.png using Guid(fbb63339e29b3604e952fe634db4b766) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '563f0455dd66796db7fcbba50a4cc3bf') in 0.018984 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000165 seconds.
+  path: Assets/Assets/NormalWereld/Struiken
+  artifactKey: Guid(49c3d8bfec4611544990906ace94fa94) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Assets/NormalWereld/Struiken using Guid(49c3d8bfec4611544990906ace94fa94) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'db686917e4369a96e89e14f8f6bcc542') in 0.009475 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000300 seconds.
+  path: Assets/MICK
+  artifactKey: Guid(1a70011e0864ceb4c89846f4fd49661e) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/MICK using Guid(1a70011e0864ceb4c89846f4fd49661e) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '87955144bdd20c6e83f257b9f2cc4ffd') in 0.007833 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000153 seconds.
+  path: Assets/Assets/HallucinatieWerels/Prikkeldraad/Prikkeldraad _08.png
+  artifactKey: Guid(fef4c2cb8e7445245bcefbac89b5c23c) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Assets/HallucinatieWerels/Prikkeldraad/Prikkeldraad _08.png using Guid(fef4c2cb8e7445245bcefbac89b5c23c) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '571aa25e18cd4887809e1932d2a8e345') in 0.012077 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000237 seconds.
+  path: Assets/Assets/HallucinatieWerels/Prikkeldraad/Prikkeldraad _05.png
+  artifactKey: Guid(0ebd233d90cdae642bd0c18a763e4e7e) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Assets/HallucinatieWerels/Prikkeldraad/Prikkeldraad _05.png using Guid(0ebd233d90cdae642bd0c18a763e4e7e) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'd72861b3f9f7f4daeb09168852785661') in 0.016740 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000160 seconds.
+  path: Assets/Assets/HallucinatieWerels/TrenchOnderdelen/Layer 80.png
+  artifactKey: Guid(c876b6fd66a2ad643a0b86e1a200448c) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Assets/HallucinatieWerels/TrenchOnderdelen/Layer 80.png using Guid(c876b6fd66a2ad643a0b86e1a200448c) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'd6770327f2ff30abebfdd5a411ec4417') in 0.018497 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000180 seconds.
+  path: Assets/Assets/HallucinatieWerels/TheRatter.png
+  artifactKey: Guid(352f4eefa59664f4aa1730a9cd2364ba) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Assets/HallucinatieWerels/TheRatter.png using Guid(352f4eefa59664f4aa1730a9cd2364ba) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '22b7b3634f3ef59b97554b91b28b4964') in 0.012749 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000205 seconds.
+  path: Assets/Assets/HallucinatieWerels/TrenchOnderdelen/TrenchZak_01.png
+  artifactKey: Guid(d76d6b7bfdb1be9409ad15f13cd60c0c) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Assets/HallucinatieWerels/TrenchOnderdelen/TrenchZak_01.png using Guid(d76d6b7bfdb1be9409ad15f13cd60c0c) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '5b021a806e135caebcce92ab31d96426') in 0.013494 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000231 seconds.
+  path: Assets/Assets/HallucinatieWerels/Prikkeldraad
+  artifactKey: Guid(8ef141ef8b0a8e847adcb7d478f14d78) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Assets/HallucinatieWerels/Prikkeldraad using Guid(8ef141ef8b0a8e847adcb7d478f14d78) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'a5efebbebaaf5ec8d93ccb717ed74e30') in 0.008042 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000146 seconds.
+  path: Assets/Assets/HallucinatieWerels/TrenchOnderdelen/TrenchHelling_rechts.png
+  artifactKey: Guid(44242f386f5566344b079bc4c9f12693) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Assets/HallucinatieWerels/TrenchOnderdelen/TrenchHelling_rechts.png using Guid(44242f386f5566344b079bc4c9f12693) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'e19f52b314f018df4fb86e997a4cc1a9') in 0.014648 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000224 seconds.
+  path: Assets/Assets/HallucinatieWerels/Takken/Tak_08.png
+  artifactKey: Guid(1ef0891bc34b3c64c84dad478a73b0d8) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Assets/HallucinatieWerels/Takken/Tak_08.png using Guid(1ef0891bc34b3c64c84dad478a73b0d8) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '6e1cd518264d91c98ff08b147fb5f372') in 0.009943 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000167 seconds.
+  path: Assets/Scripts/CursorHide.cs
+  artifactKey: Guid(b9f17a72552890b44927da3288c2fbc9) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Scripts/CursorHide.cs using Guid(b9f17a72552890b44927da3288c2fbc9) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '5963085d99341c738ee5ac20ce936178') in 0.010218 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000284 seconds.
+  path: Assets/Assets/HallucinatieWerels/Bomen/Boom_18.png
+  artifactKey: Guid(67a24eb1592073a4a80abb3601a96642) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Assets/HallucinatieWerels/Bomen/Boom_18.png using Guid(67a24eb1592073a4a80abb3601a96642) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'e225a5eb96b778accbfb5eca80d9c1a6') in 0.011274 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000187 seconds.
+  path: Assets/Assets/HallucinatieWerels/TrenchOnderdelen/TrenchZak_03.png
+  artifactKey: Guid(2c6c7d39ba69d5040ba1bcd093d1e039) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Assets/HallucinatieWerels/TrenchOnderdelen/TrenchZak_03.png using Guid(2c6c7d39ba69d5040ba1bcd093d1e039) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '06a98d4b775978c39cbcb495f9c8b9c9') in 0.018020 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000278 seconds.
+  path: Assets/Assets/HallucinatieWerels/Takken/Tak_02.png
+  artifactKey: Guid(39dc8e7f9d84cf54289e4c175bda19a5) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Assets/HallucinatieWerels/Takken/Tak_02.png using Guid(39dc8e7f9d84cf54289e4c175bda19a5) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'e18c9579031556d029bfe0a4425a5649') in 0.010343 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000201 seconds.
+  path: Assets/Assets/HallucinatieWerels/Takken/Tak_11.png
+  artifactKey: Guid(2f978743ba4bb61488ef7b8aac9042f5) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Assets/HallucinatieWerels/Takken/Tak_11.png using Guid(2f978743ba4bb61488ef7b8aac9042f5) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '47185c261d2c0a69680bfef7db9fb074') in 0.010972 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000190 seconds.
+  path: Assets/Assets/HallucinatieWerels/Bomen/Boom_01.png
+  artifactKey: Guid(4edc66ccab7914c43801b2a5e78ad084) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Assets/HallucinatieWerels/Bomen/Boom_01.png using Guid(4edc66ccab7914c43801b2a5e78ad084) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'abf3f1ffd81f6a1b805f64d0d843ce23') in 0.010437 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000215 seconds.
+  path: Assets/Scenes/TestScene/Global Volume Profile 1.asset
+  artifactKey: Guid(70030a01ecfbe3640aec0431f663117c) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Scenes/TestScene/Global Volume Profile 1.asset using Guid(70030a01ecfbe3640aec0431f663117c) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '8f999f3f75d70edfe8f5211ff759cf62') in 0.010813 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000200 seconds.
+  path: Assets/Assets/HallucinatieWerels/Bomen/Boom_09.png
+  artifactKey: Guid(7a09e772ad1d58c4aa420ac9448211d3) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Assets/HallucinatieWerels/Bomen/Boom_09.png using Guid(7a09e772ad1d58c4aa420ac9448211d3) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '8bc1b5dcc831b83cdab770be1e7f03f2') in 0.013877 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000351 seconds.
+  path: Assets/Assets/HallucinatieWerels/Takken
+  artifactKey: Guid(9dbf26dacda84ec46adfd0e0842961e4) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Assets/HallucinatieWerels/Takken using Guid(9dbf26dacda84ec46adfd0e0842961e4) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'bdafb8afd4fc91d69b7b1a218afe266b') in 0.010159 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000201 seconds.
+  path: Assets/Assets/HallucinatieWerels/Bomen/Boom_11.png
+  artifactKey: Guid(9ad02ae6f3939ed438152763eac33d0c) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Assets/HallucinatieWerels/Bomen/Boom_11.png using Guid(9ad02ae6f3939ed438152763eac33d0c) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '25cdd171615082f4df85bad4bdf57bee') in 0.011799 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000228 seconds.
+  path: Assets/Assets/TXT_Fog_02.png
+  artifactKey: Guid(53116e3afb10cd34890e1a83459b465b) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Assets/TXT_Fog_02.png using Guid(53116e3afb10cd34890e1a83459b465b) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '14594eac85e84200f22bfe878b4cd117') in 0.019544 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000223 seconds.
+  path: Assets/Assets/HallucinatieWerels/KlifLaag3.png
+  artifactKey: Guid(32eb78b3b675f3440abc90e708f436a2) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Assets/HallucinatieWerels/KlifLaag3.png using Guid(32eb78b3b675f3440abc90e708f436a2) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '2a3fc0f85a147fc49aac4757142b8537') in 0.016380 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000350 seconds.
+  path: Assets/Assets/HallucinatieWerels/Bomen/Boom_03.png
+  artifactKey: Guid(11cba96b21135704d942e5cc23b8d7ca) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Assets/HallucinatieWerels/Bomen/Boom_03.png using Guid(11cba96b21135704d942e5cc23b8d7ca) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'e6f3748699eb0f07679c2158cdd5542f') in 0.011307 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000154 seconds.
+  path: Assets/Assets/HallucinatieWerels/Bomen/Boom_14.png
+  artifactKey: Guid(cbb50a743d0a98746a307da31b514504) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Assets/HallucinatieWerels/Bomen/Boom_14.png using Guid(cbb50a743d0a98746a307da31b514504) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '6618c4da565422dc4401a1fcc23c256e') in 0.011668 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000238 seconds.
+  path: Assets/Scenes/TestScene/Trench Post Processing Profile.asset
+  artifactKey: Guid(55b838d64c4e93d43b48ff5f4e4f9e7e) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Scenes/TestScene/Trench Post Processing Profile.asset using Guid(55b838d64c4e93d43b48ff5f4e4f9e7e) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'f464b226ee568194b1f05964d0dcd7d4') in 0.010039 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000216 seconds.
+  path: Assets/Assets/HallucinatieWerels/Bomen/Boom_15.png
+  artifactKey: Guid(96c9f63be1f203b44ae939b0b57ea20e) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Assets/HallucinatieWerels/Bomen/Boom_15.png using Guid(96c9f63be1f203b44ae939b0b57ea20e) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '102683d63123a3ddb6b537608d568897') in 0.020040 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000293 seconds.
+  path: Assets/Assets/NormalWereld/Bomen/Norm_Boom_03.png
+  artifactKey: Guid(9c634adedf4f2fa46aea09abd1755b4d) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Assets/NormalWereld/Bomen/Norm_Boom_03.png using Guid(9c634adedf4f2fa46aea09abd1755b4d) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'babb253eeb69d8c876dbf3b21ad187b1') in 0.011075 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000204 seconds.
+  path: Assets/Assets/HallucinatieWerels/Takken/Tak_04.png
+  artifactKey: Guid(70ae22b1fa1aeb148bfa4e7c6f0cca24) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Assets/HallucinatieWerels/Takken/Tak_04.png using Guid(70ae22b1fa1aeb148bfa4e7c6f0cca24) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'adfeb55b0e12fdb5feb5157d495b636f') in 0.010679 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000232 seconds.
+  path: Assets/Assets/NormalWereld
+  artifactKey: Guid(a0d23b73c6b1e534cbd06a7ce42cc2db) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Assets/NormalWereld using Guid(a0d23b73c6b1e534cbd06a7ce42cc2db) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'effda27c722256bc9dbb0d8c6af929c0') in 0.008648 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000206 seconds.
+  path: Assets/Assets/HallucinatieWerels/Bomen/Boom_20.png
+  artifactKey: Guid(a69f4235309c48a45b87d76a413423bc) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Assets/HallucinatieWerels/Bomen/Boom_20.png using Guid(a69f4235309c48a45b87d76a413423bc) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '3b3236924e50f1e0c06413916a8a2f3d') in 0.011067 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000267 seconds.
+  path: Assets/Assets/HallucinatieWerels/Prikkeldraad/Prikkeldraad _01.png
+  artifactKey: Guid(7622b2f70b792074e87639eb201c5db3) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Assets/HallucinatieWerels/Prikkeldraad/Prikkeldraad _01.png using Guid(7622b2f70b792074e87639eb201c5db3) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'aa19a46ad9c13ed81a5a4270809a2c74') in 0.013343 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000242 seconds.
+  path: Assets/Assets/NormalWereld/Bodem
+  artifactKey: Guid(3135fcb7f7889cd46a5d2092e06107b6) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Assets/NormalWereld/Bodem using Guid(3135fcb7f7889cd46a5d2092e06107b6) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '6c6aff0a502c59ec07470c6e4c1ad92f') in 0.007940 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000244 seconds.
+  path: Assets/Assets/HallucinatieWerels/Bodem/Hallu_Bodem_1.png
+  artifactKey: Guid(2831631ce99dda944828215e28da02d3) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Assets/HallucinatieWerels/Bodem/Hallu_Bodem_1.png using Guid(2831631ce99dda944828215e28da02d3) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '2db2814f2dd8941ffbe0d1d978b06e43') in 0.012099 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000353 seconds.
+  path: Assets/Assets/HallucinatieWerels/Bodem
+  artifactKey: Guid(0e6961450bad96a4ba08c2dded280a2c) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Assets/HallucinatieWerels/Bodem using Guid(0e6961450bad96a4ba08c2dded280a2c) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'f85265462f4add37953e28af121b4986') in 0.008299 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000188 seconds.
+  path: Assets/Assets/HallucinatieWerels/Prikkeldraad/Prikkeldraad _03.png
+  artifactKey: Guid(e79d88059eecd7547be575a585274220) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Assets/HallucinatieWerels/Prikkeldraad/Prikkeldraad _03.png using Guid(e79d88059eecd7547be575a585274220) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '0bcb333572c6f24448e4a02492e09fb2') in 0.017674 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000236 seconds.
+  path: Assets/Assets/NormalWereld/Bodem/Norm_Bodem_2.png
+  artifactKey: Guid(94c1489b04cc8604d90a9c34bb1979ce) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Assets/NormalWereld/Bodem/Norm_Bodem_2.png using Guid(94c1489b04cc8604d90a9c34bb1979ce) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '187af4108b003b1a237719af5c0e22cd') in 0.010589 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000247 seconds.
+  path: Assets/Assets/HallucinatieWerels/Tanks
+  artifactKey: Guid(b3468023231e6c3429bf2a7d097a82d4) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Assets/HallucinatieWerels/Tanks using Guid(b3468023231e6c3429bf2a7d097a82d4) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '11a354602267bdbdd299721bd93532b6') in 0.007881 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000307 seconds.
+  path: Assets/Assets/NormalWereld/Bomen/Norm_Boom_08.png
+  artifactKey: Guid(659db3f157221734e8a28d67aba5c943) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Assets/NormalWereld/Bomen/Norm_Boom_08.png using Guid(659db3f157221734e8a28d67aba5c943) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '815589d029e22d08df98830cf1197dc0') in 0.013375 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000207 seconds.
+  path: Assets/Assets/HallucinatieWerels/Tanks/Tank_Broken_01.png
+  artifactKey: Guid(ea2cbe3580671b6448222a79efab3c51) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Assets/HallucinatieWerels/Tanks/Tank_Broken_01.png using Guid(ea2cbe3580671b6448222a79efab3c51) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '8ff54bbc5c71662a2352fa2a38370dc1') in 0.013039 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000282 seconds.
+  path: Assets/Hallu_Bodem_3.png
+  artifactKey: Guid(46d734fb0f481c740933143b83c1d9f5) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Hallu_Bodem_3.png using Guid(46d734fb0f481c740933143b83c1d9f5) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '18cdff555b4bb44bc2e4db2f7048db05') in 0.011995 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000253 seconds.
+  path: Assets/Assets/HallucinatieWerels/TrenchOnderdelen/TrenchHek_01.png
+  artifactKey: Guid(94ef38881f77d294cabf22c475584093) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Assets/HallucinatieWerels/TrenchOnderdelen/TrenchHek_01.png using Guid(94ef38881f77d294cabf22c475584093) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'dfe189f1c5bebba1dd226247d5a667ad') in 0.011888 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000295 seconds.
+  path: Assets/Assets/NormalWereld/Bomen/Norm_Boom_07.png
+  artifactKey: Guid(eccd34d73c855e74d8ae5279e6e7ae67) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Assets/NormalWereld/Bomen/Norm_Boom_07.png using Guid(eccd34d73c855e74d8ae5279e6e7ae67) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'e86f9c0f8273e81bbc6234526ad64c76') in 0.013092 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000367 seconds.
+  path: Assets/Assets/NormalWereld/Bomen/Norm_Boom_01.png
+  artifactKey: Guid(611ae80a65993ee459c1adfc4d740a77) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Assets/NormalWereld/Bomen/Norm_Boom_01.png using Guid(611ae80a65993ee459c1adfc4d740a77) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '0dd61d1ee0ea6085a0f5c8d1a919ee17') in 0.017946 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000370 seconds.
+  path: Assets/Assets/HallucinatieWerels/Takken/Tak_05.png
+  artifactKey: Guid(70d7c37a7367ead46a32bf1f0e1ce132) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Assets/HallucinatieWerels/Takken/Tak_05.png using Guid(70d7c37a7367ead46a32bf1f0e1ce132) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '27d50eb19c33d3850d7ce047b73b0baf') in 0.017208 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000202 seconds.
+  path: Assets/Assets/HallucinatieWerels/Takken/Tak_03.png
+  artifactKey: Guid(20ada495e58761d41839bbd841924da3) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Assets/HallucinatieWerels/Takken/Tak_03.png using Guid(20ada495e58761d41839bbd841924da3) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '0b0d74f0b09ef9dd22da589f589ce3d0') in 0.010463 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000535 seconds.
+  path: Assets/Assets/HallucinatieWerels/TrenchOnderdelen/TrenchZak_02.png
+  artifactKey: Guid(afeb074be96b8b14eaf52ec10792ea44) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Assets/HallucinatieWerels/TrenchOnderdelen/TrenchZak_02.png using Guid(afeb074be96b8b14eaf52ec10792ea44) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '4af9938cb427e20fa4965dcd07857dae') in 0.011701 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000218 seconds.
+  path: Assets/Assets/NormalWereld/Struiken/Norm_Struik_04.png
+  artifactKey: Guid(7c6d78a87633cfa45a7ed1803683ea8b) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Assets/NormalWereld/Struiken/Norm_Struik_04.png using Guid(7c6d78a87633cfa45a7ed1803683ea8b) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '214f6e8447a270ff7894347d33fa7993') in 0.011204 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000213 seconds.
+  path: Assets/Assets/NormalWereld/Bomen/Norm_Boom_04.png
+  artifactKey: Guid(85f3921141b59ee4c81542b6e6d8f173) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Assets/NormalWereld/Bomen/Norm_Boom_04.png using Guid(85f3921141b59ee4c81542b6e6d8f173) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '584b14bca964d3e3475039c2dea07a8e') in 0.013232 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000280 seconds.
+  path: Assets/Assets/HallucinatieWerels/Bodem/Hallu_Bodem_3.png
+  artifactKey: Guid(30f952954060ac2459c9ba6e0dfe999e) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Assets/HallucinatieWerels/Bodem/Hallu_Bodem_3.png using Guid(30f952954060ac2459c9ba6e0dfe999e) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '54c2ea66835a1dd45942fdf4dd2130cd') in 0.010632 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000206 seconds.
+  path: Assets/Assets/HallucinatieWerels/TrenchOnderdelen/Voorhelling rechts.png
+  artifactKey: Guid(05c1ec94646d89f46aa33c0768294250) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Assets/HallucinatieWerels/TrenchOnderdelen/Voorhelling rechts.png using Guid(05c1ec94646d89f46aa33c0768294250) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '56df90a7d65a84fba28946baee58bd44') in 0.016732 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000256 seconds.
+  path: Assets/Assets/HallucinatieWerels/Takken/Tak_04 1.png
+  artifactKey: Guid(0c53fa192eb1ca1489a70025d93f221b) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Assets/HallucinatieWerels/Takken/Tak_04 1.png using Guid(0c53fa192eb1ca1489a70025d93f221b) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'e38635840f79f1ef71c7637539d164b6') in 0.018431 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000246 seconds.
+  path: Assets/Assets/NormalWereld/Bodem/Norm_Bodem_1.png
+  artifactKey: Guid(c28a37a81058592459cf5b616689c42d) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Assets/NormalWereld/Bodem/Norm_Bodem_1.png using Guid(c28a37a81058592459cf5b616689c42d) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'b7291d5faaa22224c71ecd0addaf5ec1') in 0.012493 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000253 seconds.
+  path: Assets/Assets/NormalWereld/Hond_PlaceHolder (1).controller
+  artifactKey: Guid(110c8516ba9c2cb43bf8e217ec0a4475) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Assets/NormalWereld/Hond_PlaceHolder (1).controller using Guid(110c8516ba9c2cb43bf8e217ec0a4475) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '6386537a63b95b51faf0df1a4e577182') in 0.010065 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000268 seconds.
+  path: Assets/Assets/HallucinatieWerels/Takken/Tak_01.png
+  artifactKey: Guid(6535708957b1cad4c80bc5ba4040ca90) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Assets/HallucinatieWerels/Takken/Tak_01.png using Guid(6535708957b1cad4c80bc5ba4040ca90) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '81168eeae77928e828ef711227523941') in 0.011883 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000491 seconds.
+  path: Assets/Assets/Circle.png
+  artifactKey: Guid(4f3ba80e67280444796277da14ba3d08) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Assets/Circle.png using Guid(4f3ba80e67280444796277da14ba3d08) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '1c156c3effe367f804dfe510c58cab87') in 0.018046 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000241 seconds.
+  path: Assets/Scripts/ParallaxScript.cs
+  artifactKey: Guid(34ff02e5d8accc84ba8cd74f161ae260) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Scripts/ParallaxScript.cs using Guid(34ff02e5d8accc84ba8cd74f161ae260) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'd34da9ee0568194f7eb34dcf9258893b') in 0.008291 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000230 seconds.
+  path: Assets/Assets/HallucinatieWerels/Bomen
+  artifactKey: Guid(0ca0dd80bad6fbf4d9220c20d2da2305) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Assets/HallucinatieWerels/Bomen using Guid(0ca0dd80bad6fbf4d9220c20d2da2305) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '143f28bb82804c8277bae9826ddbea4d') in 0.009163 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000205 seconds.
+  path: Assets/Assets/HallucinatieWerels/Bomen/Boom_16.png
+  artifactKey: Guid(0901505be1be1524e813d8f299c60fd1) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Assets/HallucinatieWerels/Bomen/Boom_16.png using Guid(0901505be1be1524e813d8f299c60fd1) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'b41495760661886e074bb09946e17488') in 0.011935 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000331 seconds.
+  path: Assets/Assets/HallucinatieWerels/TrenchOnderdelen/Voorhelling_links.png
+  artifactKey: Guid(3f7fbd3c78444b74b9e46358aad85110) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Assets/HallucinatieWerels/TrenchOnderdelen/Voorhelling_links.png using Guid(3f7fbd3c78444b74b9e46358aad85110) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'd0bf868f80bc5af6a452edf7dc50cbbe') in 0.011507 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000163 seconds.
+  path: Assets/Assets/HallucinatieWerels/TrenchOnderdelen/Trenchachtergrond.png
+  artifactKey: Guid(b1735dd31d480e746b7d86ca6baa2862) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Assets/HallucinatieWerels/TrenchOnderdelen/Trenchachtergrond.png using Guid(b1735dd31d480e746b7d86ca6baa2862) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '353d1d44c11e8d720fffba8d25f16705') in 0.014752 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000192 seconds.
+  path: Assets/Assets/HallucinatieWerels/TrenchOnderdelen/TrenchHek_02.png
+  artifactKey: Guid(1b0262ee39d5b3344a244d2ddabb11b9) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Assets/HallucinatieWerels/TrenchOnderdelen/TrenchHek_02.png using Guid(1b0262ee39d5b3344a244d2ddabb11b9) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '29a9906869244e22650901347761537e') in 0.013112 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000163 seconds.
+  path: Assets/Assets/HallucinatieWerels/Tanks/Tank 01.png
+  artifactKey: Guid(a9d44882e0c13274d91fb4d2ecaea4ed) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Assets/HallucinatieWerels/Tanks/Tank 01.png using Guid(a9d44882e0c13274d91fb4d2ecaea4ed) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'c206fefaf9c4852f28212301b710a7c4') in 0.024743 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000246 seconds.
+  path: Assets/Assets/TXT_FogParticle_01 copy.tga
+  artifactKey: Guid(b2cd2d50259da44488dc32e9152b425b) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Assets/TXT_FogParticle_01 copy.tga using Guid(b2cd2d50259da44488dc32e9152b425b) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '9459ff37e3aad219639a434055afa783') in 0.020652 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000164 seconds.
+  path: Assets/Assets/NormalWereld/Bodem/Norm_Bodem_4.png
+  artifactKey: Guid(06aa0f56c9509204facb0aca4b690562) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Assets/NormalWereld/Bodem/Norm_Bodem_4.png using Guid(06aa0f56c9509204facb0aca4b690562) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '64686118b1b5b0fbefa554020ffaf19f') in 0.011050 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000247 seconds.
+  path: Assets/Assets/HallucinatieWerels
+  artifactKey: Guid(638b5eecdaea9564089f9e0af2ba1d44) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Assets/HallucinatieWerels using Guid(638b5eecdaea9564089f9e0af2ba1d44) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '6958545cb0e85a7c6b12b2bc5f15b205') in 0.008364 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000201 seconds.
+  path: Assets/Assets/NormalWereld/Struiken/Norm_Struik_02.png
+  artifactKey: Guid(78df9b0997dab3a46ac1ab37898476dd) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Assets/NormalWereld/Struiken/Norm_Struik_02.png using Guid(78df9b0997dab3a46ac1ab37898476dd) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '95e1a3b7125ca63b63543f96d7ca5910') in 0.011410 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000212 seconds.
+  path: Assets/Assets/NormalWereld/Bomen/Norm_Boom_06.png
+  artifactKey: Guid(9eb0817d0b3e9f84aa08cca79fdab2cb) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Assets/NormalWereld/Bomen/Norm_Boom_06.png using Guid(9eb0817d0b3e9f84aa08cca79fdab2cb) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'a40fe82ab233c38593c089aeb4d5d9a4') in 0.011528 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000228 seconds.
+  path: Assets/Assets/HallucinatieWerels/Bomen/Boom_07.png
+  artifactKey: Guid(233bf19ed5a41c9419a608cecf2c6fef) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Assets/HallucinatieWerels/Bomen/Boom_07.png using Guid(233bf19ed5a41c9419a608cecf2c6fef) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '806951b80e803ec9a655ee9241dfde31') in 0.011687 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000222 seconds.
+  path: Assets/Assets/NormalWereld/Bomen/Norm_Boom_05.png
+  artifactKey: Guid(78f02b73822e1d344998553e4e627851) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Assets/NormalWereld/Bomen/Norm_Boom_05.png using Guid(78f02b73822e1d344998553e4e627851) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'ee86309e6376632341fd6a967ea6179c') in 0.011698 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000518 seconds.
+  path: Assets/Assets/HallucinatieWerels/Takken/Tak_07.png
+  artifactKey: Guid(0540fe4fda86dc04d96d6c48d9da0bef) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Assets/HallucinatieWerels/Takken/Tak_07.png using Guid(0540fe4fda86dc04d96d6c48d9da0bef) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'fef96f323a95259f3adf78fbfe61d3d7') in 0.011321 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000254 seconds.
+  path: Assets/Assets/NormalWereld/Struiken/Norm_Struik_01.png
+  artifactKey: Guid(9103de58d4263df4eb3dbc7427555b18) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Assets/NormalWereld/Struiken/Norm_Struik_01.png using Guid(9103de58d4263df4eb3dbc7427555b18) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '9cdbfe5e2831ed4520abd55438bc0a8c') in 0.010786 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000222 seconds.
+  path: Assets/Assets/NormalWereld/Hond_PlaceHolder.png
+  artifactKey: Guid(567a565e41b554249b54a449c6cdfc21) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Assets/NormalWereld/Hond_PlaceHolder.png using Guid(567a565e41b554249b54a449c6cdfc21) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'c6a670c86113e06c9ddcf288b73765ea') in 0.018391 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000259 seconds.
+  path: Assets/Assets/HallucinatieWerels/Sleeperd.png
+  artifactKey: Guid(d6121189171927d4387ad32bf3c785aa) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Assets/HallucinatieWerels/Sleeperd.png using Guid(d6121189171927d4387ad32bf3c785aa) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '30523e111e3f6efaae6c453876c76750') in 0.012689 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000276 seconds.
+  path: Assets/Assets/HallucinatieWerels/Prikkeldraad/Prikkeldraad _06.png
+  artifactKey: Guid(90aa4ae34adbcc84dbbc4ca7ad538436) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Assets/HallucinatieWerels/Prikkeldraad/Prikkeldraad _06.png using Guid(90aa4ae34adbcc84dbbc4ca7ad538436) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '58e93f25db7cd76d813705c14817e4ff') in 0.012767 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000289 seconds.
+  path: Assets/Assets/NormalWereld/Bomen/Norm_Boom_02.png
+  artifactKey: Guid(1fdafcf8e0272e74c8e1dc08f959f7d6) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Assets/NormalWereld/Bomen/Norm_Boom_02.png using Guid(1fdafcf8e0272e74c8e1dc08f959f7d6) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '07b08cae24773cd5cad4fa2731451ee8') in 0.020292 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000338 seconds.
+  path: Assets/Assets/HallucinatieWerels/Bomen/Boom_10.png
+  artifactKey: Guid(243e006151b80b5458e3e10383011224) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Assets/HallucinatieWerels/Bomen/Boom_10.png using Guid(243e006151b80b5458e3e10383011224) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '2105ab6f4b2950f7c3c6b828aca83009') in 0.012442 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000191 seconds.
+  path: Assets/Assets/NormalWereld/Norm_Lucht.png
+  artifactKey: Guid(32aa020b85afc9e43bee78815b5fcbc6) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Assets/NormalWereld/Norm_Lucht.png using Guid(32aa020b85afc9e43bee78815b5fcbc6) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '015475cdba78f32f8aebac60af7805c1') in 0.011500 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000196 seconds.
+  path: Assets/Scenes/TestScene/Global Volume Profile.asset
+  artifactKey: Guid(09c6878f355a7e74a84c96d832003209) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Scenes/TestScene/Global Volume Profile.asset using Guid(09c6878f355a7e74a84c96d832003209) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '339a2686f5b2884868d17a1b7cec3881') in 0.010205 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000198 seconds.
+  path: Assets/Scenes/TestScene
+  artifactKey: Guid(f8be0ff806ad45f4e8e051550bb7593f) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Scenes/TestScene using Guid(f8be0ff806ad45f4e8e051550bb7593f) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '76ead9e00d9d9e21e77be2bd340ef346') in 0.010067 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000188 seconds.
+  path: Assets/Assets/HallucinatieWerels/Bomen/Boom_06.png
+  artifactKey: Guid(7035a504db9fe1a49a8ce5da9c5701e2) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Assets/HallucinatieWerels/Bomen/Boom_06.png using Guid(7035a504db9fe1a49a8ce5da9c5701e2) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'ecf0c6d74056a2e1360c68e87194ba3a') in 0.014228 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000195 seconds.
+  path: Assets/Assets/HallucinatieWerels/Takken/Tak_10.png
+  artifactKey: Guid(afce4a47a16aeae4da365e001ceb4f27) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Assets/HallucinatieWerels/Takken/Tak_10.png using Guid(afce4a47a16aeae4da365e001ceb4f27) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '1e92704a3ba7dc48eff19461b191142e') in 0.011659 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000208 seconds.
+  path: Assets/Assets/NormalWereld/Bomen
+  artifactKey: Guid(d38d0c8c08612f740a2b4bb12678e591) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Assets/NormalWereld/Bomen using Guid(d38d0c8c08612f740a2b4bb12678e591) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '4e07fde17f10093db012a85fe326aae7') in 0.008872 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000211 seconds.
+  path: Assets/Assets/MainCharacterProjectVrij2.psd
+  artifactKey: Guid(5fe71b326d23ed745b89d357bfc93179) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Assets/MainCharacterProjectVrij2.psd using Guid(5fe71b326d23ed745b89d357bfc93179) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '383cd51d5df916f250f5d64075c03377') in 0.024594 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000325 seconds.
+  path: Assets/Assets/HallucinatieWerels/Bomen/Boom_13.png
+  artifactKey: Guid(e55aaef5429dd4a46b2f06ae7fad5a28) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Assets/HallucinatieWerels/Bomen/Boom_13.png using Guid(e55aaef5429dd4a46b2f06ae7fad5a28) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'f3db2f39264dc6f1110e324555f98f04') in 0.011292 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000411 seconds.
+  path: Assets/Assets/HallucinatieWerels/Bodem/Hallu_Bodem_2.png
+  artifactKey: Guid(478e209012b39824e8ebac25f641c22d) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Assets/HallucinatieWerels/Bodem/Hallu_Bodem_2.png using Guid(478e209012b39824e8ebac25f641c22d) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '202e49622cee0eb3b5196e5b4d1851dc') in 0.011965 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000207 seconds.
+  path: Assets/Assets/HallucinatieWerels/Bomen/Boom_08.png
+  artifactKey: Guid(bc1a8c0f2e97e4c45a8a46ec38201567) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Assets/HallucinatieWerels/Bomen/Boom_08.png using Guid(bc1a8c0f2e97e4c45a8a46ec38201567) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '05d0a5c526fd1963d5cefc869b8fbab0') in 0.010949 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000272 seconds.
+  path: Assets/Assets/HallucinatieWerels/TrenchOnderdelen
+  artifactKey: Guid(6c4cdc25e21496545a1f3c81cdb58518) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Assets/HallucinatieWerels/TrenchOnderdelen using Guid(6c4cdc25e21496545a1f3c81cdb58518) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '27b7a92a29539a7054a3f29a9dfab9c6') in 0.008921 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000219 seconds.
+  path: Assets/Assets/HallucinatieWerels/Takken/Tak_06.png
+  artifactKey: Guid(e57dd4eac660d3642ac2f1c7e179594e) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Assets/HallucinatieWerels/Takken/Tak_06.png using Guid(e57dd4eac660d3642ac2f1c7e179594e) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'b0fb68a568b3d369d95d0f9e79b8cf1c') in 0.016897 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000315 seconds.
+  path: Assets/Assets/HallucinatieWerels/Bomen/Boom_04.png
+  artifactKey: Guid(8421e519c727c594ba7c2f409cfb68d6) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Assets/HallucinatieWerels/Bomen/Boom_04.png using Guid(8421e519c727c594ba7c2f409cfb68d6) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '2d756d38e642e271e6ad041110208cee') in 0.013651 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000247 seconds.
+  path: Assets/Assets/HallucinatieWerels/Bomen/Boom_17.png
+  artifactKey: Guid(d0e0e87218f178047819ace937a881fc) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Assets/HallucinatieWerels/Bomen/Boom_17.png using Guid(d0e0e87218f178047819ace937a881fc) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '0e737aca8dddc97c28311a083e89881c') in 0.011018 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000283 seconds.
+  path: Assets/Assets/HallucinatieWerels/Bodem/Hallu_Bodem_4.png
+  artifactKey: Guid(897d4ddf3acf1d64183cbea942532b4d) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Assets/HallucinatieWerels/Bodem/Hallu_Bodem_4.png using Guid(897d4ddf3acf1d64183cbea942532b4d) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'c2131f2250f1f5127eae5892e4371929') in 0.013433 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000213 seconds.
+  path: Assets/Assets/TXT_Fog_03.png
+  artifactKey: Guid(613016e72e150464ca0532a3e23fd7c9) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Assets/TXT_Fog_03.png using Guid(613016e72e150464ca0532a3e23fd7c9) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '62bac1c24d7ba17ff43908dabe3f48a7') in 0.009658 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000392 seconds.
+  path: Assets/Assets/HallucinatieWerels/Prikkeldraad/Prikkeldraad _04.png
+  artifactKey: Guid(984ddebbaf208e146bb025820a922539) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Assets/HallucinatieWerels/Prikkeldraad/Prikkeldraad _04.png using Guid(984ddebbaf208e146bb025820a922539) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '54d95da284058eaac71edd0affd511b9') in 0.011878 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000221 seconds.
+  path: Assets/Assets/NormalWereld/HondRentWeg.anim
+  artifactKey: Guid(d76e08339385ec742b0f6d6de2249749) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Assets/NormalWereld/HondRentWeg.anim using Guid(d76e08339385ec742b0f6d6de2249749) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '46ef46feaed8e94d880038ded1c63f45') in 0.010171 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000206 seconds.
+  path: Assets/Assets/HallucinatieWerels/Takken/Tak_09.png
+  artifactKey: Guid(cd8987a2592e11f468b898707bc178f5) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Assets/HallucinatieWerels/Takken/Tak_09.png using Guid(cd8987a2592e11f468b898707bc178f5) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '9ff5e1c6d23b2cbb121645487a48327e') in 0.011787 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000150 seconds.
+  path: Assets/Assets/HallucinatieWerels/Bomen/Boom_12.png
+  artifactKey: Guid(2d2428b306ef7ed4a9102c61babfcdf7) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Assets/HallucinatieWerels/Bomen/Boom_12.png using Guid(2d2428b306ef7ed4a9102c61babfcdf7) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '2e3ef08650cb931781f5ec8cbb770c2b') in 0.012194 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000162 seconds.
+  path: Assets/Assets/HallucinatieWerels/KlifLaag1.png
+  artifactKey: Guid(b5689524ef6aa9c4db4fd7d6266e8083) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Assets/HallucinatieWerels/KlifLaag1.png using Guid(b5689524ef6aa9c4db4fd7d6266e8083) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '7192a4ec1cd8b12c6652b35c3377cbd9') in 0.015003 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000182 seconds.
+  path: Assets/Assets
+  artifactKey: Guid(5e8fd102c0e75f54695a76eba161bff8) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Assets using Guid(5e8fd102c0e75f54695a76eba161bff8) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '4ccbfbd1c0dba4d30430e19c9b8982d9') in 0.010325 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000213 seconds.
+  path: Assets/Assets/HallucinatieWerels/Prikkeldraad/Prikkeldraad _09.png
+  artifactKey: Guid(ef11b629e2dee5541bfa7284a0c71e8c) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Assets/HallucinatieWerels/Prikkeldraad/Prikkeldraad _09.png using Guid(ef11b629e2dee5541bfa7284a0c71e8c) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '34b02bf89eae0b7c9981e5115702b0de') in 0.013316 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000202 seconds.
+  path: Assets/Assets/HallucinatieWerels/KlifLaag4.png
+  artifactKey: Guid(2082c39ef59660842af23c57d2079b68) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Assets/HallucinatieWerels/KlifLaag4.png using Guid(2082c39ef59660842af23c57d2079b68) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'e7e347f1f0a9fe9b016f2b4bbcfcd4b9') in 0.015680 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000204 seconds.
+  path: Assets/Assets/HallucinatieWerels/Tanks/Tank_02.png
+  artifactKey: Guid(14d66d0f297010647b7e3d93e832e20f) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Assets/HallucinatieWerels/Tanks/Tank_02.png using Guid(14d66d0f297010647b7e3d93e832e20f) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '7d16765488aeba31e55ab31708a230d4') in 0.015148 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000241 seconds.
+  path: Assets/Assets/HallucinatieWerels/TheGasser.png
+  artifactKey: Guid(540943379f2544448a84426b98575ea3) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Assets/HallucinatieWerels/TheGasser.png using Guid(540943379f2544448a84426b98575ea3) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'e5c0b736016df11f818bce1e10f1e69e') in 0.013604 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000234 seconds.
+  path: Assets/Assets/HallucinatieWerels/Prikkeldraad/Prikkeldraad _02.png
+  artifactKey: Guid(651b49e96e43849469154e76f1bbd995) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Assets/HallucinatieWerels/Prikkeldraad/Prikkeldraad _02.png using Guid(651b49e96e43849469154e76f1bbd995) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '9927bb7760a034aa5c3a4d751cadf7fa') in 0.011624 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000234 seconds.
+  path: Assets/Assets/HallucinatieWerels/Takken/Tak_12.png
+  artifactKey: Guid(9242462ff7d8e9745bef411630f0ec04) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Assets/HallucinatieWerels/Takken/Tak_12.png using Guid(9242462ff7d8e9745bef411630f0ec04) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'e248b596e15b7845b11ef1bb2a3469e2') in 0.010203 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000269 seconds.
+  path: Assets/Assets/HallucinatieWerels/KlifLaag2.png
+  artifactKey: Guid(49028094acd24a84db368c02259c4df5) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Assets/HallucinatieWerels/KlifLaag2.png using Guid(49028094acd24a84db368c02259c4df5) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '51ce2b8173127537e09533a37c645b07') in 0.016868 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000220 seconds.
+  path: Assets/Assets/NormalWereld/Struiken/Norm_Struik_05.png
+  artifactKey: Guid(c94745e8eac6fae41a4e37e36e6e57f5) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Assets/NormalWereld/Struiken/Norm_Struik_05.png using Guid(c94745e8eac6fae41a4e37e36e6e57f5) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '338d637e6430d683902fb6e074a744e4') in 0.010763 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000264 seconds.
+  path: Assets/Assets/HallucinatieWerels/Bomen/Boom_19.png
+  artifactKey: Guid(6d2f7575afd7b3e4cb1d80f98f9b7e5a) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Assets/HallucinatieWerels/Bomen/Boom_19.png using Guid(6d2f7575afd7b3e4cb1d80f98f9b7e5a) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'fa5a0c2edc43a8e7b0e7e688d8fdd738') in 0.011201 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000292 seconds.
+  path: Assets/Assets/HallucinatieWerels/TrenchOnderdelen/TrencheHelling_links.png
+  artifactKey: Guid(94606fd346e5868418942982f637c7c4) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Assets/HallucinatieWerels/TrenchOnderdelen/TrencheHelling_links.png using Guid(94606fd346e5868418942982f637c7c4) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'f1602b197a714cb5b39e3233f50f0942') in 0.012952 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.682650 seconds.
+  path: Assets/TestScene.unity
+  artifactKey: Guid(3cbe582347920334da5d04dab7e7bc12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TestScene.unity using Guid(3cbe582347920334da5d04dab7e7bc12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d0d210cbea025095140285115d307e8') in 0.007343 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 24.937986 seconds.
+  path: Assets/TestScene 1.unity
+  artifactKey: Guid(56f74645651582d4887525e50dc7161a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TestScene 1.unity using Guid(56f74645651582d4887525e50dc7161a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f237cfd49c241dee75bf39932d5f7641') in 0.006535 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.931796 seconds.
+  path: Assets/TestScene 1.unity
+  artifactKey: Guid(56f74645651582d4887525e50dc7161a) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/TestScene 1.unity using Guid(56f74645651582d4887525e50dc7161a) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'd303f3cf85cc49b0d142a241dc10e29d') in 0.008523 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 40.002909 seconds.
+  path: Assets/Mick's Scene.unity
+  artifactKey: Guid(56f74645651582d4887525e50dc7161a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mick's Scene.unity using Guid(56f74645651582d4887525e50dc7161a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '884bd47f63e5e9fb1348f4e310b19403') in 0.006573 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.965932 seconds.
+  path: Assets/Mick's Scene.unity
+  artifactKey: Guid(56f74645651582d4887525e50dc7161a) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Mick's Scene.unity using Guid(56f74645651582d4887525e50dc7161a) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '1f81b1f9cf8733f87ef8013b43eb7fe3') in 0.008476 seconds 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
