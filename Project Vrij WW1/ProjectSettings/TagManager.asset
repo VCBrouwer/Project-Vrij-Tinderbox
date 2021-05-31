@@ -6,6 +6,7 @@ TagManager:
   tags:
   - PTSSTrig
   - NormalTrig
+  - HondWeg
   layers:
   - Default
   - TransparentFX

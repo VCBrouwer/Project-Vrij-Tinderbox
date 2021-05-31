@@ -28,6 +28,8 @@ public class MoveScript : MonoBehaviour
 
     public GameObject NormalWorld;
     public GameObject HalluWorld;
+    public GameObject Hond;
+    public GameObject HondWeg;
 
     void Start() {
         rb = GetComponent<Rigidbody2D>();
@@ -71,7 +73,7 @@ public class MoveScript : MonoBehaviour
         Gizmos.DrawWireSphere(groundCheck.position, checkRadius);
     }
 
-    private void OnTriggerEnter2D (Collider2D other)
+    private void OnTriggerEnter2D(Collider2D other)
     {
         if (other.gameObject.CompareTag("PTSSTrig"))
         {
@@ -88,5 +90,12 @@ public class MoveScript : MonoBehaviour
 
 
         }
+        if (other.gameObject.CompareTag("HondWeg"))
+        {
+            Hond.gameObject.SetActive(false);
+            HondWeg.gameObject.SetActive(true);
+        }
     }
+  
+        
     }
