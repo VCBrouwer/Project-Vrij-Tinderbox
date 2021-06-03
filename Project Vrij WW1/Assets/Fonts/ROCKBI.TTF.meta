@@ -1,0 +1,24 @@
+fileFormatVersion: 2
+guid: 6f57ca69bceec3a47bcf383b4ccf0e5c
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - Rockwell
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 17830c898cdaa734ebe2ef04cfcd6dbf, type: 3}
+  - {fileID: 12800000, guid: 9db4d0200fafca243b609c0bbfc9b574, type: 3}
+  - {fileID: 12800000, guid: 6e875e416bd5eda4ebf7c6950dd9c80b, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

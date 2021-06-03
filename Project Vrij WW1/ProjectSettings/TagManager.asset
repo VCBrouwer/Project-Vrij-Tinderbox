@@ -7,6 +7,8 @@ TagManager:
   - PTSSTrig
   - NormalTrig
   - HondWeg
+  - Speed
+  - Slow
   layers:
   - Default
   - TransparentFX
@@ -44,15 +46,24 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
-  - name: Voorgrond
-    uniqueID: 3817495849
-    locked: 0
-  - name: Loopterrein
-    uniqueID: 1080998831
-    locked: 0
-  - name: Achterlaag1
-    uniqueID: 2704166555
+  - name: Lucht
+    uniqueID: 1724546651
     locked: 0
   - name: Achterlaag 2
+    uniqueID: 3817495849
+    locked: 0
+  - name: Achterlaag 1
+    uniqueID: 1080998831
+    locked: 0
+  - name: Loopgrond
+    uniqueID: 2704166555
+    locked: 0
+  - name: Player
+    uniqueID: 3321112973
+    locked: 0
+  - name: Voorgrond
     uniqueID: 1988565915
+    locked: 0
+  - name: Silhouette
+    uniqueID: 304588917
     locked: 0

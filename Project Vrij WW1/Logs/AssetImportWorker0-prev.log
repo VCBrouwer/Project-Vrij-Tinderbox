@@ -1,0 +1,194 @@
+Using pre-set license
+Built from '2021.1/staging' branch; Version is '2021.1.6f1 (c0fade0cc7e9) revision 12647134'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Pro; OS build 19042.985; Version 2009; 64bit' Language: 'en' Physical Memory: 32584 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Users\vbrou\Documents\Unity\2021.1.6f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/vbrou/Documents/HKU/Jaar 2/Project Vrij/Project Vrij Unity/Project-Vrij-Tinderbox/Project Vrij WW1
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+60381
+Successfully changed project path to: C:/Users/vbrou/Documents/HKU/Jaar 2/Project Vrij/Project Vrij Unity/Project-Vrij-Tinderbox/Project Vrij WW1
+C:/Users/vbrou/Documents/HKU/Jaar 2/Project Vrij/Project Vrij Unity/Project-Vrij-Tinderbox/Project Vrij WW1
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 98.46 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.1.6f1 (c0fade0cc7e9)
+[Subsystems] Discovering subsystems at path C:/Users/vbrou/Documents/Unity/2021.1.6f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/vbrou/Documents/HKU/Jaar 2/Project Vrij/Project Vrij Unity/Project-Vrij-Tinderbox/Project Vrij WW1/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 2080 Super with Max-Q Design (ID=0x1e93)
+    Vendor:   NVIDIA
+    VRAM:     8010 MB
+    Driver:   26.21.14.4614
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Initialize mono
+Mono path[0] = 'C:/Users/vbrou/Documents/Unity/2021.1.6f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Users/vbrou/Documents/Unity/2021.1.6f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Users/vbrou/Documents/Unity/2021.1.6f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56160
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Users/vbrou/Documents/Unity/2021.1.6f1/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: C:/Users/vbrou/Documents/Unity/2021.1.6f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002101 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 100.66 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.130 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.003320 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 105.36 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.075 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 0.72 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4530 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 250.0 MB.
+System memory in use after: 250.1 MB.
+
+Unloading 29 unused Assets to reduce memory usage. Loaded Objects now: 4986.
+Total: 2.843400 ms (FindLiveObjects: 0.302800 ms CreateObjectMapping: 0.268400 ms MarkObjects: 2.131200 ms  DeleteObjects: 0.140200 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Assets/HallucinatieWerels/Marshes
+  artifactKey: Guid(a374f974602654446b067931f894319b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/HallucinatieWerels/Marshes using Guid(a374f974602654446b067931f894319b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af8cb5af8913ac7d9257aaf8c8940ddb') in 0.010198 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.039317 seconds.
+  path: Assets/Assets/HallucinatieWerels/Marshes/Bloedplas.png
+  artifactKey: Guid(345b1d95e0bbc1a41a593f2e5710ad7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/HallucinatieWerels/Marshes/Bloedplas.png using Guid(345b1d95e0bbc1a41a593f2e5710ad7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a17d2c07a12455558a3e8509991b5dc8') in 0.127723 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000274 seconds.
+  path: Assets/Assets/HallucinatieWerels/Marshes/Modder_Semidonker_03.png
+  artifactKey: Guid(5dc9e2f4d41baa148a61176754157c38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/HallucinatieWerels/Marshes/Modder_Semidonker_03.png using Guid(5dc9e2f4d41baa148a61176754157c38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83983959d890b29a8e67f71db5148330') in 0.014769 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000379 seconds.
+  path: Assets/Assets/HallucinatieWerels/Marshes/Paardeschedel.png
+  artifactKey: Guid(3aff3476ce33823489d940a70d0f1231) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/HallucinatieWerels/Marshes/Paardeschedel.png using Guid(3aff3476ce33823489d940a70d0f1231) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d007926268e2273ab6371a51d6a2077') in 0.015511 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000283 seconds.
+  path: Assets/Assets/HallucinatieWerels/Marshes/Water_Licht.png
+  artifactKey: Guid(a33d33bccbc101845b1f70290f8e8f8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/HallucinatieWerels/Marshes/Water_Licht.png using Guid(a33d33bccbc101845b1f70290f8e8f8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e871b9c93a8fd2ad954c5e40dd0682f4') in 0.014634 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000301 seconds.
+  path: Assets/Assets/HallucinatieWerels/Marshes/Water_Donker.png
+  artifactKey: Guid(2e486f2c57f40894dbd33c686dc01813) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/HallucinatieWerels/Marshes/Water_Donker.png using Guid(2e486f2c57f40894dbd33c686dc01813) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77990ff2950c2a3d9c6fa4c88aec7476') in 0.013767 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000176 seconds.
+  path: Assets/Assets/HallucinatieWerels/Marshes/Modder_Donker_01.png
+  artifactKey: Guid(850c5877f8f1ab247a268b090b050fde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/HallucinatieWerels/Marshes/Modder_Donker_01.png using Guid(850c5877f8f1ab247a268b090b050fde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7adadca1fd8b3f451d2455e2d9bbbde1') in 0.014768 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000287 seconds.
+  path: Assets/Assets/HallucinatieWerels/Marshes/LoopPlank.png
+  artifactKey: Guid(7ba304e355a988c429e688d38d167045) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/HallucinatieWerels/Marshes/LoopPlank.png using Guid(7ba304e355a988c429e688d38d167045) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '108d8ff09e741ebbcc47b48164420ee3') in 0.011070 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000258 seconds.
+  path: Assets/Assets/HallucinatieWerels/Marshes/Modder_Semidonker_02.png
+  artifactKey: Guid(2813db6e8c9e0e547a3a16d60803fdce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/HallucinatieWerels/Marshes/Modder_Semidonker_02.png using Guid(2813db6e8c9e0e547a3a16d60803fdce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14706eaabc047ec40006821c1d6d0c5b') in 0.018141 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000180 seconds.
+  path: Assets/Assets/HallucinatieWerels/Marshes/Modder_Licht_02.png
+  artifactKey: Guid(9b3a3f26e3383b548bd09526da9c79dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/HallucinatieWerels/Marshes/Modder_Licht_02.png using Guid(9b3a3f26e3383b548bd09526da9c79dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cebd2f9e9f2db73e1ed6d585d00b7f4f') in 0.014628 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000174 seconds.
+  path: Assets/Assets/HallucinatieWerels/Marshes/Water_SemiLicht.png
+  artifactKey: Guid(e0c5cd0fdcb57c149a589db9623aa3f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/HallucinatieWerels/Marshes/Water_SemiLicht.png using Guid(e0c5cd0fdcb57c149a589db9623aa3f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef1a0b2a97e252b3f6c9bc99c458c32a') in 0.015273 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000160 seconds.
+  path: Assets/Assets/HallucinatieWerels/Marshes/Modder_SemiLicht_01.png
+  artifactKey: Guid(579b9aa6fdf84de4d82b0ffe31c26958) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/HallucinatieWerels/Marshes/Modder_SemiLicht_01.png using Guid(579b9aa6fdf84de4d82b0ffe31c26958) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a180e6980d97af78edaf38fc2a59ee67') in 0.013073 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000209 seconds.
+  path: Assets/Assets/HallucinatieWerels/Marshes/Modder_Donker_02.png
+  artifactKey: Guid(8e8948760147edb4f95814081fc1f2a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/HallucinatieWerels/Marshes/Modder_Donker_02.png using Guid(8e8948760147edb4f95814081fc1f2a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6347db312cc4aa71f136e2327f308f7') in 0.013562 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000194 seconds.
+  path: Assets/Assets/HallucinatieWerels/Marshes/Water_SemiDonker.png
+  artifactKey: Guid(3732f33598538714685e08f6f546451b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/HallucinatieWerels/Marshes/Water_SemiDonker.png using Guid(3732f33598538714685e08f6f546451b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e5550b92b6e755fe01fb0f56071a03f') in 0.013780 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000171 seconds.
+  path: Assets/Assets/HallucinatieWerels/Marshes/Ribben.png
+  artifactKey: Guid(f5d51584cf02f8e459db9a886b290cfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/HallucinatieWerels/Marshes/Ribben.png using Guid(f5d51584cf02f8e459db9a886b290cfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc6e14da5f9fe3145eeaa017ed33ccad') in 0.015425 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000282 seconds.
+  path: Assets/Assets/HallucinatieWerels/Marshes/Modder_SemiLicht_02.png
+  artifactKey: Guid(0344af59986b15746899cf9468c1f664) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/HallucinatieWerels/Marshes/Modder_SemiLicht_02.png using Guid(0344af59986b15746899cf9468c1f664) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9926d7b2043ead2c14baefd6c70f3776') in 0.013659 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000224 seconds.
+  path: Assets/Assets/HallucinatieWerels/Marshes/Modder_Licht_01.png
+  artifactKey: Guid(e282115755e3a0f4f91f1ca4ed161a3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/HallucinatieWerels/Marshes/Modder_Licht_01.png using Guid(e282115755e3a0f4f91f1ca4ed161a3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca5b65ca3a4ca75ce150d7502b7be386') in 0.011555 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000290 seconds.
+  path: Assets/Assets/HallucinatieWerels/Marshes/Modder_Semidonker_01.png
+  artifactKey: Guid(a64e11bf235124c4fa6ce7f36d901ea4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/HallucinatieWerels/Marshes/Modder_Semidonker_01.png using Guid(a64e11bf235124c4fa6ce7f36d901ea4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f122f96cbac4ea7306f6023c58e5ff18') in 0.013253 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000201 seconds.
+  path: Assets/Assets/HallucinatieWerels/Marshes/Raaf.png
+  artifactKey: Guid(c4526d721b4ea954f9c7892d98b5319c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/HallucinatieWerels/Marshes/Raaf.png using Guid(c4526d721b4ea954f9c7892d98b5319c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8b8318fc392b7b7d6b9498f5421d69a') in 0.013956 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000176 seconds.
+  path: Assets/Assets/HallucinatieWerels/Marshes/Modder_Donker_03.png
+  artifactKey: Guid(76a5f28f6b0dc86488bdb9d82180af47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/HallucinatieWerels/Marshes/Modder_Donker_03.png using Guid(76a5f28f6b0dc86488bdb9d82180af47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b83e81ed26ca9c4f6da43c7fcd4a000a') in 0.014048 seconds 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file

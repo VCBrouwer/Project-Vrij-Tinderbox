@@ -5,7 +5,7 @@ using UnityEngine;
 public class MoveScript : MonoBehaviour
 {
     [SerializeField]
-    private float moveSpeed;
+    public float moveSpeed; 
     [SerializeField]
     private float jumpForce;
     [SerializeField]
@@ -23,7 +23,6 @@ public class MoveScript : MonoBehaviour
     Vector3 transformRight = new Vector2();
     Vector3 transformLeft = new Vector2();
 
-
     private Rigidbody2D rb;
 
     public GameObject NormalWorld;
@@ -31,7 +30,17 @@ public class MoveScript : MonoBehaviour
     public GameObject Hond;
     public GameObject HondWeg;
 
+    private bool runFaster;
+    [SerializeField]
+    private float fastSpeed;
+    private float normalMoveSpeed;
+    
+
+
+
     void Start() {
+        normalMoveSpeed = moveSpeed;
+
         rb = GetComponent<Rigidbody2D>();
 
         //De variables zodat de sprite kan flippen
@@ -43,6 +52,16 @@ public class MoveScript : MonoBehaviour
  
     void FixedUpdate()
     {
+        if (runFaster)
+        {
+         moveSpeed = fastSpeed;
+        }
+        else if (!runFaster)
+        {
+         moveSpeed = normalMoveSpeed;
+        }
+
+
         isGrounded = Physics2D.OverlapCircle(groundCheck.position, checkRadius, whatIsGround);
         moveInput = Input.GetAxis("Horizontal");
 
@@ -95,6 +114,16 @@ public class MoveScript : MonoBehaviour
             Hond.gameObject.SetActive(false);
             HondWeg.gameObject.SetActive(true);
         }
+
+        if (other.CompareTag("Speed"))
+        {
+            runFaster = true;
+        }
+        if (other.CompareTag("Slow"))
+        {
+            runFaster = false;
+        }
+
     }
   
         
