@@ -34,7 +34,9 @@ public class MoveScript : MonoBehaviour
     [SerializeField]
     private float fastSpeed;
     private float normalMoveSpeed;
-    
+
+    //animatie
+    public Animator animator;
 
 
 
@@ -72,6 +74,12 @@ public class MoveScript : MonoBehaviour
             rb.velocity = Vector2.up * jumpForce;
         }
         checkFlip();
+
+
+
+        //animatie
+        animator.SetFloat("Speed", Mathf.Abs(moveInput));
+
     }
 
     void checkFlip()
