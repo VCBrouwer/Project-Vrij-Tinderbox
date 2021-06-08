@@ -5,23 +5,16 @@ using UnityEngine;
 public class MoveScript : MonoBehaviour
 {
     [SerializeField]
-    public float moveSpeed; 
+    public float moveSpeed;
     [SerializeField]
-    private float jumpForce;
+    private float fastSpeed;
     [SerializeField]
-    private float checkRadius;
+    private float normalMoveSpeed;
 
-    private float moveInput;
+    public float moveInput;
 
-    [SerializeField]
-    private bool isGrounded;
-    [SerializeField]
-    private LayerMask whatIsGround;
-    [SerializeField]
-    private Transform groundCheck;
-
-    Vector3 transformRight = new Vector2();
-    Vector3 transformLeft = new Vector2();
+    Vector2 transformRight = new Vector2();
+    Vector2 transformLeft = new Vector2();
 
     private Rigidbody2D rb;
 
@@ -31,21 +24,16 @@ public class MoveScript : MonoBehaviour
     public GameObject HondWeg;
 
     private bool runFaster;
-    [SerializeField]
-
-    //private bool comeToStop;
-    //[SerializeField]
-
-    private float fastSpeed;
-    private float normalMoveSpeed;
-    //private float noSpeed;
 
     //animatie
     public Animator animator;
 
+    private bool canWalk;
 
 
-    void Start() {
+
+    void Start()
+    {
         normalMoveSpeed = moveSpeed;
 
         rb = GetComponent<Rigidbody2D>();
@@ -54,48 +42,50 @@ public class MoveScript : MonoBehaviour
         transformLeft = transform.localScale;
         transformLeft.x = (transform.localScale.x * -1);
         transformRight = transform.localScale;
+
+        canWalk = true;
     }
-    
- 
+
+
     void FixedUpdate()
     {
         if (runFaster)
         {
-         moveSpeed = fastSpeed;
+            moveSpeed = fastSpeed;
         }
         else if (!runFaster)
         {
-         moveSpeed = normalMoveSpeed;
+            moveSpeed = normalMoveSpeed;
         }
 
-
-        //if (comeToStop)
-        //{
-        //    moveSpeed = noSpeed;
-        //}
-        //else if (!comeToStop)
-        //{
-        //    moveSpeed = normalMoveSpeed;
-        //}
-
-
-        isGrounded = Physics2D.OverlapCircle(groundCheck.position, checkRadius, whatIsGround);
         moveInput = Input.GetAxis("Horizontal");
 
-        rb.velocity = new Vector2(moveInput * moveSpeed, rb.velocity.y);
-
-        if (Input.GetKey(KeyCode.Space) && isGrounded)
+        if (canWalk)
         {
-            rb.velocity = Vector2.up * jumpForce;
+            rb.velocity = new Vector2(moveInput * moveSpeed, rb.velocity.y);
         }
-        checkFlip();
 
 
 
         //animatie
-        animator.SetFloat("Speed", Mathf.Abs(moveInput));
+        if (runFaster && moveInput > 0 || moveInput < 0)
+        {
+            animator.SetBool("isWalking", false);
+        }else if (!runFaster && moveInput > 0 || moveInput < 0)
+        {
+            animator.SetBool("isWalking", true);
+        }
+        if (!runFaster)
+        {
+            animator.SetBool("isRunning", false);
+        }
+        else if (runFaster)
+        {
+            animator.SetBool("isRunning", true);
+        }
 
-        animator.SetFloat("Rennen", Mathf.Abs(moveSpeed));
+        //animator.SetFloat("isRunning", Mathf.Abs(moveSpeed)); //Hij zegt dat deze parameter niet besteed "Rennen"
+        checkFlip();
 
     }
 
@@ -114,7 +104,6 @@ public class MoveScript : MonoBehaviour
     private void OnDrawGizmosSelected()
     {
         Gizmos.color = Color.red;
-        Gizmos.DrawWireSphere(groundCheck.position, checkRadius);
     }
 
     private void OnTriggerEnter2D(Collider2D other)
@@ -131,8 +120,6 @@ public class MoveScript : MonoBehaviour
 
             NormalWorld.gameObject.SetActive(true);
             HalluWorld.gameObject.SetActive(false);
-
-
         }
         if (other.gameObject.CompareTag("HondWeg"))
         {
@@ -148,17 +135,9 @@ public class MoveScript : MonoBehaviour
         {
             runFaster = false;
         }
-
-        //if (other.comparetag("stop"))
-        //{
-        //    cometostop = true;
-        //}
-        //if (other.comparetag("go"))
-        //{
-        //    cometostop = false;
-        //}
-
+        if (other.CompareTag("Stop"))
+        {
+            canWalk = false;
+        }
     }
-  
-        
-    }
+}

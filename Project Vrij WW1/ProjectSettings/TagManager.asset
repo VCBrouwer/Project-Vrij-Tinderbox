@@ -12,6 +12,7 @@ TagManager:
   - Stop
   - Go
   - GasserGeluid
+  - Disappear
   layers:
   - Default
   - TransparentFX
