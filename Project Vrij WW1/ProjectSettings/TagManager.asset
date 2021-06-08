@@ -9,6 +9,9 @@ TagManager:
   - HondWeg
   - Speed
   - Slow
+  - Stop
+  - Go
+  - GasserGeluid
   layers:
   - Default
   - TransparentFX
@@ -66,4 +69,7 @@ TagManager:
     locked: 0
   - name: Silhouette
     uniqueID: 304588917
+    locked: 0
+  - name: ' Buttons'
+    uniqueID: 4269510225
     locked: 0

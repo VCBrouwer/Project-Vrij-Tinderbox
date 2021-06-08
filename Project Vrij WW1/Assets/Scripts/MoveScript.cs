@@ -32,8 +32,13 @@ public class MoveScript : MonoBehaviour
 
     private bool runFaster;
     [SerializeField]
+
+    //private bool comeToStop;
+    //[SerializeField]
+
     private float fastSpeed;
     private float normalMoveSpeed;
+    //private float noSpeed;
 
     //animatie
     public Animator animator;
@@ -64,6 +69,16 @@ public class MoveScript : MonoBehaviour
         }
 
 
+        //if (comeToStop)
+        //{
+        //    moveSpeed = noSpeed;
+        //}
+        //else if (!comeToStop)
+        //{
+        //    moveSpeed = normalMoveSpeed;
+        //}
+
+
         isGrounded = Physics2D.OverlapCircle(groundCheck.position, checkRadius, whatIsGround);
         moveInput = Input.GetAxis("Horizontal");
 
@@ -79,6 +94,8 @@ public class MoveScript : MonoBehaviour
 
         //animatie
         animator.SetFloat("Speed", Mathf.Abs(moveInput));
+
+        animator.SetFloat("Rennen", Mathf.Abs(moveSpeed));
 
     }
 
@@ -131,6 +148,15 @@ public class MoveScript : MonoBehaviour
         {
             runFaster = false;
         }
+
+        //if (other.comparetag("stop"))
+        //{
+        //    cometostop = true;
+        //}
+        //if (other.comparetag("go"))
+        //{
+        //    cometostop = false;
+        //}
 
     }
   

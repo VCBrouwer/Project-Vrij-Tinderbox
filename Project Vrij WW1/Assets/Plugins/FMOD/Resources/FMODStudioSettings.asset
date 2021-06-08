@@ -399,9 +399,9 @@ MonoBehaviour:
   SwitchSettingsMigration: 1
   HasSourceProject: 1
   HasPlatforms: 1
-  sourceProjectPath: ../../../../../../../Downloads/FMOD Implementatie/FMOD Implementatie/FMOD
+  sourceProjectPath: ../../../../../../../Downloads/FMOD Implementatie 3/FMOD Implementatie/FMOD
     Implementatie.fspro
-  sourceBankPath: ../../../../../../../Downloads/FMOD Implementatie/FMOD Implementatie/Build
+  sourceBankPath: ../../../../../../../Downloads/FMOD Implementatie 3/FMOD Implementatie/Build
   SourceBankPathUnformatted: 
   BankRefreshCooldown: 5
   ShowBankRefreshWindow: 1
