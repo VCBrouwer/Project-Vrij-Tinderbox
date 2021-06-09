@@ -70,10 +70,6 @@ public class MoveScript : MonoBehaviour
             rb.velocity = new Vector2(moveInput * moveSpeed, rb.velocity.y);
         }
 
-
-       
-
-
         //animatie
         if (runFaster && moveInput > 0 || moveInput < 0)
         {
@@ -115,6 +111,10 @@ public class MoveScript : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other)
     {
+        if (other.CompareTag("SleeperdTrigger"))
+        {
+            Destroy(animator);
+        }
         if (other.gameObject.CompareTag("PTSSTrig"))
         {
 
@@ -167,5 +167,6 @@ public class MoveScript : MonoBehaviour
         {
             canWalk = false;
         }
+
     }
 }

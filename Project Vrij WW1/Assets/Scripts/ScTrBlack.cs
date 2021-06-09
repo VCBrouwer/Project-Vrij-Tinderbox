@@ -7,7 +7,7 @@ public class ScTrBlack : MonoBehaviour
 {
     void Update()
     {
-        if (Timer(5))
+        if (Timer(3.5f))
         {
             SceneManager.LoadScene(3); //deze '1' moet het nummer van de scene zijn waar je heen wilt
         }

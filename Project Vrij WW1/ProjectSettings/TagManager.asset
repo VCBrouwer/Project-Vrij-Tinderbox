@@ -16,6 +16,9 @@ TagManager:
   - MarshCamera
   - Lichtje
   - LichtjeUit
+  - RatterTrigger
+  - GasserTrigger
+  - SleeperdTrigger
   layers:
   - Default
   - TransparentFX
