@@ -11,7 +11,7 @@ public class SceneTransitionEind : MonoBehaviour
     void Update()
     {
        
-            if (Timer(20))
+            if (Timer(18))
             {
                 SceneManager.LoadScene(4); //deze '1' moet het nummer van de scene zijn waar je heen wilt
             }

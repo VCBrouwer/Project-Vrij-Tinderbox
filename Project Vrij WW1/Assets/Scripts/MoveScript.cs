@@ -22,8 +22,13 @@ public class MoveScript : MonoBehaviour
     public GameObject HalluWorld;
     public GameObject Hond;
     public GameObject HondWeg;
+    public GameObject MarshCamera;
+    public GameObject NormalCamera;
 
     private bool runFaster;
+
+    //lichtje
+    public GameObject lichtje;
 
     //animatie
     public Animator animator;
@@ -65,6 +70,8 @@ public class MoveScript : MonoBehaviour
             rb.velocity = new Vector2(moveInput * moveSpeed, rb.velocity.y);
         }
 
+
+       
 
 
         //animatie
@@ -126,6 +133,27 @@ public class MoveScript : MonoBehaviour
             Hond.gameObject.SetActive(false);
             HondWeg.gameObject.SetActive(true);
         }
+
+
+        if (other.gameObject.CompareTag("MarshCamera"))
+        {
+            NormalCamera.gameObject.SetActive(false);
+            MarshCamera.gameObject.SetActive(true);
+        }
+
+        //Lichtje
+        if (other.gameObject.CompareTag("Lichtje"))
+        {
+            lichtje.gameObject.SetActive(true);
+        }
+
+        if (other.gameObject.CompareTag("LichtjeUit"))
+        {
+            lichtje.gameObject.SetActive(false);
+        }
+
+
+
 
         if (other.CompareTag("Speed"))
         {

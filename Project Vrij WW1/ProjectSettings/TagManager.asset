@@ -13,6 +13,9 @@ TagManager:
   - Go
   - GasserGeluid
   - Disappear
+  - MarshCamera
+  - Lichtje
+  - LichtjeUit
   layers:
   - Default
   - TransparentFX
